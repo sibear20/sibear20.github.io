@@ -1,15 +1,16 @@
 #web_bg{
-background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    /* background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%); */
     /* background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%); */
     /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
 }
 
 .layout_post>#post {
     /* 以下代表白色透明度为0.3 */
-    background: rgba(255,255,255,.2);
+    background: rgba(255,255,255,.3);
 }
 /* 所有背景（包括首页卡片、文章页、页面页等） */
 #aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
-    /* 以下代表白色透明度为0.3 */
-    background: rgba(255,255,255,.2);
+    /* 以下代表白色透明度为0.1 */
+    background: rgba(255,255,255,.8);
 }
